@@ -1,6 +1,7 @@
 print("Namaskara Mysuru!")
 print("Namaskara Bengaluru!")
 print("Namaste, nanna hesaru Puneeth!")
+
 a=19
 b=21
 print(a+b)
@@ -20,8 +21,8 @@ print("a:", a)
 print("b:", b)
 
 name="Puneeth"
-age=19
-height=5.9
+age=18
+height=5.10
 is_student=True
 weight=62
 print(type(is_student))
@@ -38,3 +39,4 @@ age_diff=abs(boy_age-girl_age)
 print(boy_name+" loves "+girl_name+" Age difference is "+str(age_diff)+" years.")
 
 print(f"{boy_name} loves {girl_name} Age difference is {age_diff} years.")
+
