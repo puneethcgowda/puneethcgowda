@@ -1,7 +1,6 @@
 print("Namaskara Mysuru!")
 print("Namaskara Bengaluru!")
 print("Namaste, nanna hesaru Puneeth!")
-
 a=19
 b=21
 print(a+b)
@@ -21,14 +20,15 @@ print("a:", a)
 print("b:", b)
 
 name="Puneeth"
-age=18
-height=5.10
+age=19
+height=5.9
 is_student=True
 weight=62
 print(type(is_student))
 s="100"
 print(int(s)+age)
 
+'''
 boy_name=input("Boy name: ")
 boy_age=int(input("Boy age: "))
 girl_name=input("Girl name: ")
@@ -39,4 +39,25 @@ age_diff=abs(boy_age-girl_age)
 print(boy_name+" loves "+girl_name+" Age difference is "+str(age_diff)+" years.")
 
 print(f"{boy_name} loves {girl_name} Age difference is {age_diff} years.")
+'''
 
+first_name = "Puneeth"
+last_name = "Gowda"
+full_name = first_name + " " + last_name
+print(full_name)
+
+message = "Warning! "
+print(message * 7)
+print(message.upper())
+print(message.strip() * 3)
+print(message.replace("Warning", "Error"))
+
+name = '''Puneeth said "Hi!"
+Meghana replied "Hello!" '''
+print(name)
+print(len(message))
+
+name = "Puneeth Gowda"
+print(name[-5])  #index = position-1
+print(name[0:])  #slicing
+print(name[4:10:2])  #slicing with step
